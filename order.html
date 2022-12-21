@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>عملية الطلب </title>
+</head>
+<body>
+
+<div class="container">
+<div class="row">
+    <div class="col-12 text-right">
+        <nav class=" navbar fixed-top navbar-expand-sm justify-content" style="background-color:white;height:60px;">
+
+          <div class="col-1">
+            <a href="#" class="navbar-brand" ><img src="img/logo.png" alt="Logo" style="width:60px;height:60px;"></a>
+          </div>
+
+          <div class="col-2">
+
+              <button class="btn bg-white" data-toggle="collapse" data-target="#demo" type="submit"><img src="img/search1.png" alt="search" style="width:20px;height:20px;"></button>
+              <div id="demo" class="collapse ">
+                <form class="form-inline" action="/action_page.php">
+                  <input class="form-control mr-sm-2" type="text" placeholder="بحث">
+                  <button class="btn"  type="submit">بحث</button>
+                </form>
+              </div>
+
+         </div>
+         <div class="col-6">
+
+
+          <ul class="navbar nav justify-content-center nav-tabs">
+           <li class="nav-item"><a href="#" class="nav-link" style="color:teal;">الرئيسية</a> </li>
+           <li class="nav-item"><a href="#" class="nav-link " style="color:teal;">المتاجر</a> </li>
+           <li class="nav-item"><a href="#" class="nav-link" style="color:teal;">الطلبات</a> </li>
+           <li class="nav-item"><a href="#" class="nav-link" style="color:teal;">من نحن؟</a> </li>
+          </ul>
+          </div>
+          <div class="col-3">
+          <ul class="navbar nav justify-content-end ">
+           <li class="nav-item"><a href="#" style="color:teal;">تسجيل الدخول /تسجيل <img src="img/Login.png" alt="Login" style="width:20px;height:20px;"></a></li>
+          </ul>
+          </div>
+        </nav>
+       </div>
+       <br><br>
+       <br><br>
+
+        <div class="container">
+          <div class="row">
+            <label for="exampleFormControlInput1" class="form-label">اضافة طلب</label>
+             <input type="order" class="form-control" id="inputorder">
+              </div>
+    <div class="<col-6">
+      <div class="container>
+        <div class="<col-6">
+          <div class="row">
+            <label for="exampleFormControlInput1" class="form-label">اسم المتجر</label>
+             <input type="order" class="form-control" id="inputorder">
+              </div>
+        </div>
+    </div>
+
+       <select class="form-select" aria-label="Default select example">
+       <option selected> اختيار المتجر</option>
+       <option value="1">متجر1</option>
+       <option value="2">متجر2</option>
+       <option value="3">متجر3</option>
+        <option value="3">متجر4</option>
+         <option value="3">متجر5</option>
+          <option value="3">متجر6</option>
+     </select>
+
+  </div>
+  </div>
+  <br>
+
+             <div class="row g-3">
+               <div class="col">
+                   <label for="exampleFormControlInput1" class="form-label">:العرض</label>
+                 <input type="number" class="form-control">
+               </div>
+               <div class="col">
+                   <label for="exampleFormControlInput1" class="form-label">:الطول</label>
+                 <input type="number" class="form-control">
+               </div>
+             </div>
+<br>
+<div class="row g-3">
+  <div class="col">
+     <label for="exampleFormControlInput1" class="form-label">:الخامة</label>
+    <input type="text" class="form-control" >
+  </div>
+  <div class="col">
+     <label for="exampleFormControlInput1" class="form-label">:السعر</label>
+    <input type="number" class="form-control" >
+  </div>
+</div>
+
+
+
+
+
+   <div class="form-floating">
+     <label for="floatingTextarea2">:الملاحظات</label>
+     <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+
+   </div>
+   <br>
+   <br>
+   <div class="container">
+ <button type="submit" class="btn btn-primary btn-md"> إرسال </button>
+    </div>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
