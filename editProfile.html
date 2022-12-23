@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <title>البلاغات</title>
+    <title> تحرير الملف الشخصي</title>
 </head>
 <body>
 
@@ -33,52 +33,42 @@
 
             <ul class="navbar nav justify-content-center nav-tabs">
              <li class="nav-item"><a href="#" class="nav-link" style="color:teal;">الرئيسية</a> </li>
-             <li class="nav-item"><a href="storeslist.html" class="nav-link " style="color:teal;">المتاجر</a> </li>
+             <li class="nav-item"><a href="#" class="nav-link " style="color:teal;">المتاجر</a> </li>
              <li class="nav-item"><a href="#" class="nav-link" style="color:teal;">الطلبات</a> </li>
              <li class="nav-item"><a href="#" class="nav-link" style="color:teal;">من نحن؟</a> </li>
             </ul>
             </div>
             <div class="col-3">
-            <ul class="navbar nav justify-content-end">
-             <li class="nav-item"><a href="login.html" style="color:teal;">تسجيل الدخول /تسجيل <img src="img/Login.png" alt="Login" style="width:20px;height:20px;"></a></li>
+            <ul class="navbar nav justify-content-end ">
+             <li class="nav-item"><a href="#" style="color:teal;">تسجيل الدخول /تسجيل <img src="img/Login.png" alt="Login" style="width:20px;height:20px;"></a></li>
             </ul>
             </div>
           </nav>
          </div>
-       <br><br>
-       <br><br>
-
-
-
+         <br><br>
+         <br><br>
+        <div class="col-12 text-right">
+        <a href="profileStore.html">  <img src="img/right-arrow.png" alt="back"  height="20" width="20"></a>
+        </div>
+        <div class="col-12 text-center">
+          <a href="#"><img src="img\avatar.png" alt="Avatar" class="avatar" style="width:300px;height:300px;"></a>
+        </div>
         <form class="form-inline" action="/action_page.php" method="post">
-         <div class="col-12 form-group mb-3">
-           <label for="IdOrd"> رقم الطلب: </label>
-          </div>
-          <div class="col-12 form-group mb-3">
-           <input type="text" class="form-control" id="idOrder" name="idOrder" placeholder="رقم الطلب">
+         <div class="col-12 form-group-center mb-3">
+           <label for="nameStore"> اسم المتجر:</label>
+           <input type="text" class="form-control" id="nameStore" name="nameStore" placeholder="اسم المتجر...">
          </div>
-
-         <div class="col-12 form-group  mb-3">
-           <label for="problemDetails"> وصف الشكوى:</label>
+         <div class="col-12 form-group-center mb-3">
+           <label for="detailsOfStore"> وصف المتجر:</label>
+           <input type="text" class="form-control" id="detailsOfStore" name="detailsOfStore" placeholder="الوصف...">
          </div>
-         <div class="col-12 form-group  mb-3">
+         <div class="col-12 btn-center">
+           <button type="submit" name="save" class="btn btn-primary btn-md">حفظ</button>
+      </div>
+  </div>
 
-           <textarea class="form-control-plaintext" style="background-color:white;" rows="5" id="problemDetails" name="problemDetails" placeholder="اكتب الشكوى هنا"></textarea>
 
-         </div>
-         <div class="col-12 form-group  mb-3">
-           <label for="imageOfproblem"> ارفاق صورة:  </label>
-           <input type="image" class="form-control" id="imageOfproblem" src="img_submit.gif" name="imageOfproblem" alt="ارفاق صورة" width="30" height="30">
-         </div>
 
-         <br>
-
-         <button type="submit" class="btn btn-primary btn-md"> إرسال </button>
-
-        </form>
-
-     </div>
-   </div>
 
 
 
