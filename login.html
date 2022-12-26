@@ -5,24 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <title>Document</title>
+    <title>تسجيل الدخول</title>
 </head>
 <body>
 
     <div class="container">
         <div class="row">
             <div class="col-6">
-                <img src="img/Register.png" alt="register" height="750" width="550">
+                <img src="img/Register.png" alt="register" height="750" width="550" class="bi bi-arrow-left">
             </div>
             <div class="col-md-6 text-center">
-                <div class="jumbotron bg-white" dir="rtl" >
+                <div class="jumbotron bg-white" dir="rtl">
+                    <div style = "position:relative; right:180px; top:2px;">
+                    <img src="img/left-arrow.png" alt="back" onclick="history.back()"  height="50" width="50">
+                </div>
                     <img src="img/logo.png" alt="logo" class="rounded mx-auto d-block" height="150" width="150">
                     <h1 class="display-4" dir="rtl" float-right>اهلا ومرحباً بك!</h1>
                     <p class="lead" dir="rtl" float-right>من فضلك قم بإدخال البيانات بشكل صحيح ليتم استخدام التطبيق</p>
                     <hr class="my-4">
                     <form>
                         <div class="form-group">
-                
+
                           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="البريد الإلكتروني">
                         </div>
                         <div class="form-group">
@@ -35,16 +38,15 @@
                         <button type="submit" class="btn btn-primary btn-md">تسجيل الدخول</button>
                       </form>
                       <br>
-                      <a href=""></a>
                       <p> ليس لديك حساب؟ <a href="index.html"  class="text-danger">تسجيل  </a></p>
 
-                    
+
                   </div>
-                  
+
                   </div>
             </div>
         </div>
-    
+
     </div>
 
     <script src="js/popper.min.js"></script>

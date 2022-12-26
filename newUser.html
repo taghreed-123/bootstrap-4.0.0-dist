@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <title>New user</title>
+    <title>مستخدم جديد</title>
 </head>
 <body>
 
     <div class="container mg-5">
         <div class="row">
-            <div class="col-6 text-center">
+          <div class="col-2 text-center">
+            <div style = "position:relative; left:80px; top:2px;">
+              <img src="img/left-arrow.png" alt="back" onclick="history.back()"  height="50" width="50">
+          </div>
+          </div>
+            <div class="col-8 text-center">
                     <img src="img/logo.png" alt="logo" class="rounded mx-auto d-block" height="250" width="250">
                     <h1 class="display-4" dir="rtl" float-right>اهلا ومرحباً بك!</h1>
                     <p class="lead" dir="rtl" float-right>من فضلك قم بإدخال البيانات بشكل صحيح</p>
@@ -31,9 +36,37 @@
                           </div>
                         <div class="form-check">
                           <input type="checkbox" class="form-check-input" id="exampleCheck1">
-
-                          <label class="form-check-label" for="exampleCheck1">&nbsp; &nbsp; الموافقة على الشروط </label>
+                          <label class="form-check-label" for="exampleCheck1"><a href="" class="text-primary" data-toggle="modal" data-target="#myModal">&nbsp; &nbsp; الموافقة على الشروط</a></label>
                         </div>
+
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel"> الموافقة على الشروط</h4>
+                              </div>
+                        <div class="modal-body  text-right">
+                          <p>موقعنا الالكتروني يرحّب بكم ويبلغكم بأنكم سوف تجدون أدناه الشروط والأحكام المُنظّمة لاستخدامكم لهذا الموقع
+                           ، حيث أن استخدام أي شخصٍ كان لـ(موقع بالسانتي) سواءً كان مستخدماً أو صاحب لمتجر فإن هذا موافقة وقبول منه وهو بكامل أهليته المعتبرة شرعاً ونظاماً وقانوناً لكافة مواد وأحكام هذه الاتفاقية وهو تأكيد لالتزامكم بأنظمتها ولما ذُكر فيها، وتسري هذه الاتفاقية على جميع أنواع التعامل بين المستخدم وبين المتجر.</p>
+                         <h6>شروط التسجيل</h6>
+                         <ul>
+                           <li>يجب التأكد من صحة المعلومات المدخلة</li>
+                           <li>ان يلتزم المستخدم باستخدام المنصة الالكترونية الخاصة بـنا بما يتّفق مع الآداب العامة والأنظمة المعمول بها في المملكة العربية السعودية</li>
+                           <li>في حال الطلب من متجر يجب ان يلتزم بالمبلغ المتفق عليه من المتجر</li>
+                           <li>عدم الإساءة لأي متجر وفي حال القيام بذلك سوف نتخذ الإجراءات القانونية </li>
+                           <li>في حال لم يصلك المنتج بناء على الطلب يحق للمستخدم المطالبة بإرجاع المبلغ او إعادة تصنيع المنتج</li>
+                       </ul>
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal"> خروج</button>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                        <br>
                         <button type="submit" class="btn btn-primary">تسجيل</button>
                       </form>
                       <br>
