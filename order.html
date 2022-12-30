@@ -8,7 +8,6 @@
     <title>عملية الطلب </title>
 </head>
 <body>
-
 <div class="container">
 <div class="row">
     <div class="col-12 text-right">
@@ -56,14 +55,20 @@
          <a href="complaint.html" class="btn btn-primary">الشكوى </a>
        </div>
        </div>
-       <br>
-
-       <div class="col order-5">
+    <div class="row">
+         <div class="col-12 text-left">
+           <div style = "position:relative; left:60px; top:1px;">العودة للتصفح
+             <img src="img/left-arrow.png" style="color:#fff;"alt="back" onclick="history.back()"  height="50" width="50">
+         </div>
+         </div>
+          </div>
+          <form class="" action="index.html" method="post">
+       <div class="col-3 text-right">
    <label for="inputstore" class="visually-hidden">اختيار المتجر </label>
-   <input type="text" class="btn mb-3" id="inputstore"
+   <input type="text" class="btn mb-3" id="inputstore"style="border-radius: 15px;"
 
 <div class="col">
-       <select class="form-select" aria-label="Default select example">
+       <select class="form-select" style="border-radius: 15px;" aria-label="Default select example">
        <option selected> اختيار المتجر</option>
        <option value="1">متجر1</option>
        <option value="2">متجر2</option>
@@ -77,22 +82,22 @@
   </div>
 
              <div class="row">
-               <div class="col-6 text-right">العرض:
-                 <input type="number" class="form-control">
+               <div class="col-3 text-right">العرض:
+                 <input type="text" class="form-control" style="border-radius: 15px;">
                </div>
-               <div class="col-6 text-right">الطول:
-                 <input type="number" class="form-control">
+               <div class="col-3 text-right">الطول:
+                 <input type="text" class="form-control" style="border-radius: 15px;">
 
                </div>
              </div>
 <div class="row g-3">
-  <div class="col-6 text-right">الخامة:
+  <div class="col-3 text-right">الخامة:
 
-    <input type="text" class="form-control" >
+    <input type="text" class="form-control" style="border-radius: 15px;" >
   </div>
-  <div class="col-6 text-right">السعر:
+  <div class="col-3 text-right">السعر:
 
-    <input type="number" class="form-control" >
+    <input type="text" class="form-control" style="border-radius: 15px;" >
 
 </div>
 
@@ -102,18 +107,23 @@
 
    <div class="form-floating">
        <div class="text-right"> الملاحظات:</div>
-     <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+       <div class="col-md-9 text-left">
+     <textarea class="form-control" id="floatingTextarea2" style="border-radius: 15px;"></textarea>
+   </div>
 
    </div>
    <br>
    <div class="col-12 form-group  mb-3">
-     <input type="image" class="form-control" id="imageOfproblem" src="img_submit.gif" alt=" ارفاق صورة لتصميم ان وجد" width="100px" height="100p">
+     <div class="col-md-9 text-left">
+     <input type="image" class="form-control" id="imageOfproblem" src="img_submit.gif"style="border-radius: 15px;" alt=" ارفاق صورة لتصميم ان وجد" width="100px" height="100p">
    </div>
+      </div>
    <div class="container">
-       <div class="col-md-6 text-left">
- <button type="submit" class="btn btn-primary btn-lg "> ارسال</button>
+       <div class="col-md-9 text-left">
+ <button type="submit" class="btn btn-primary btn-lg "style="border-radius: 15px;"> ارسال</button>
     </div>
     </div>
+  </form>
     <br>
     </div>
 
