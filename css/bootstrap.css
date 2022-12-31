@@ -306,6 +306,24 @@ height: 40px;
 
 
 
+  .list-order-co{
+
+      padding: 0px 0 ;
+      background:  #fff;
+      width: 90%;
+      height: 40px;
+      border-radius: 6px;
+      margin: auto;
+    }
+    .list-order-co li{
+      border: 1px solid #fff;
+      padding: 5px 30px 2px 30px;}
+
+  }
+
+
+
+
 
 [tabindex="-1"]:focus {
   outline: 0 !important;
