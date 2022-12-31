@@ -59,25 +59,37 @@
         <img src="img/right-arrow.png" style="color:#fff;"alt="back" onclick="history.back()"  height="20" width="20">
          </div>
          </div>
-        <div class="col-12 text-center">
-          <a href="#"><img src="img\avatar.png" alt="Avatar" class="avatar" style="width:300px;height:300px;"></a>
+
+        <div class="container">
+          <div class="row">
+            <form class="form-inline" action="/action_page.php" method="post">
+        <div class="col-3 mb-1 pb-1" dir="rtl">
+          <img src="img\avatar.png" alt="Avatar" class="avatar" style="width:200px;height:200px;">
         </div>
-        <form class="form-inline" action="/action_page.php" method="post">
-         <div class="col-12 form-group-center mb-3">
-           <label for="nameStore"> اسم المتجر:</label>
+
+        <div class="row">
+        <div class=" col-3 mr-3 mb-5" dir="rtl">
+          <button type="button" name="button" style="border:none;color:gray;"> تغيير صورة العرض</button>
+        </div>
+
+         <div class="col-11 form-group mb-4" dir="rtl">
+           <label class="ml-3" for="nameStore"> اسم المتجر:</label>
            <input type="text" class="form-control" id="nameStore" name="nameStore" placeholder="اسم المتجر...">
          </div>
-         <div class="col-12 form-group-center mb-3">
-           <label for="detailsOfStore"> وصف المتجر:</label>
+         <div class="col-12 form-group mb-4" dir="rtl">
+           <label class="ml-1" for="detailsOfStore"> وصف المتجر:</label>
            <input type="text" class="form-control" id="detailsOfStore" name="detailsOfStore" placeholder="الوصف...">
          </div>
-         <div class="col-12 btn-center">
+          <br> <br> <br>
+         <div class="col-3 btn mb-3 mr-5" dir="rtl">
            <button type="submit" name="save" class="btn btn-primary btn-md"><a href="profileStore.html" style="color:#fff;background-color: #216869;" >حفظ </a></button>
       </div>
   </div>
-
-</form>
-  <div class="row copyright">
+  </form>
+  </div>
+  </div>
+ <br> <br>
+  <div class="row mr-3 copyright">
     <div class="col-md-12 text-center">
 
       <p>
